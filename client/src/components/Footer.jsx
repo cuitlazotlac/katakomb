@@ -1,7 +1,7 @@
 import React from "react";
 
 // import logo from "../../images/170.png";
-import logo from "../assets/170.png"
+import logo from "../assets/170.png";
 
 const Footer = () => (
   <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
@@ -26,12 +26,8 @@ const Footer = () => (
     </div>
 
     <div className="flex justify-center items-center flex-col mt-5">
-      <p className="text-white text-sm text-center">
-        Come join us and hear for the unexpected miracle
-      </p>
-      <p className="text-white text-sm text-center font-medium mt-2">
-        info@kryptomastery.com
-      </p>
+      <p className="text-white text-sm text-center">{""}</p>
+      <p className="text-white text-sm text-center font-medium mt-2">{""}</p>
     </div>
 
     <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
